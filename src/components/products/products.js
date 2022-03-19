@@ -1,18 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ProductCard from "../ProductCard";
 
-export default function Products({data}) {
-    return(
-        <div className="products">
-            {data.map((item, index) => (
-                <div key={index}>
-                    <Link to={`/products/${item.title}`}>
-                        <img src={`${item.image}`} alt={`${item.title}`} />
-                        <h3>{item.title}</h3>
-                        <p>{item.price}</p>
-                    </Link>
-                </div>
-            ))}
-        </div>
+export default function Products(props) {
+    function renderProductsList() {
+        const products = props.data.map((item) => (
+            <ProductCard
+                key = {item.title}
+                title = {item.title}
+                image = {item.image}
+                price = {item.price}
+                addToBag = {props.addToBag}
+            />
+        ));
+        return products;
+    };
+    return (
+        <div className="products-list">{renderProductsList()}</div>
     )
 }
