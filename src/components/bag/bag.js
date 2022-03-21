@@ -11,7 +11,7 @@ export default function Bag(props) {
                 quantity = {item.quantity}
                 price = {item.price}
                 deleteItem = {props.deleteItem}
-                quantityUpdater = {props.quantityUpdater} 
+                quantityUpdater = {props.quantityUpdater}
             />
         ));
         return bagItems;
@@ -28,7 +28,7 @@ export default function Bag(props) {
     return (
         <div className="bag-container">
             <div className="bag-items-container">{renderBagItems()}</div>
-            <div className="total-price">Total: {calculateTotalPrice()}</div>
+            <div className="total-price">Total: {calculateTotalPrice()} Rupees</div>
         </div>
     )
 }

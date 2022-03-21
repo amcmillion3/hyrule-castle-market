@@ -8,7 +8,7 @@ export default function ProductCard(props) {
                 <img src={`${props.image}`} alt={`${props.title}`} />
             </Link>
             <h3>{props.title}</h3>
-            <p>{props.price}</p>
+            <p>{props.price} Rupees</p>
             <button className="add-to-bag-button" onClick={() => props.addToBag(props)}>Add to Bag</button>
         </div>
     )
