@@ -10,7 +10,7 @@ export default function BagCard(props) {
                 <button className="delete-button" onClick={() => props.deleteItem(props)}>Delete Item</button>
                 <input 
                     type="number"
-                    quantity={props.quantity}
+                    value={props.quantity}
                     onChange={(e) => props.quantityUpdater(props, e)}
                 />
             </div>

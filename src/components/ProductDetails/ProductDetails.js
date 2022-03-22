@@ -11,6 +11,7 @@ export default function ProductDetails(props) {
             image = {item.image}
             title = {item.title}
             price = {item.price}
+            quantity = {item.quantity}
             description = {item.description}
             addToBag = {props.addToBag}
             />

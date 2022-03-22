@@ -1,5 +1,5 @@
 export const productData = [
-    {title: 'Arrows', 
+    {title: 'Arrows',
     price: 30 , 
     description: 'Projectiles to be used with a bow. Can be used to defeat enemies and activate switches.',
     image: require('./product-images/Arrows.png'),

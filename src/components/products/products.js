@@ -9,6 +9,7 @@ export default function Products(props) {
                 title = {item.title}
                 image = {item.image}
                 price = {item.price}
+                quantity = {item.quantity}
                 addToBag = {props.addToBag}
             />
         ));
