@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import './App.css';
 import { productData as data } from "./assets/product-data";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -44,10 +43,10 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App bg-slate-50 h-max">
       <BrowserRouter>
-        <nav>
-          <h1>The Hyrule Castle Market</h1>
+        <h1 className='text-7xl flex justify-center my-12 text-center font-bold'>The Hyrule Castle Market</h1>
+        <nav className='text-3xl flex justify-center my-10 gap-4'>
           <Link to='/' >Home</Link>
           <Link to='/about' >About</Link>
           <Link to='/products' >Products</Link>

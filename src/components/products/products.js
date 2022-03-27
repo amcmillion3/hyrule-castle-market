@@ -16,6 +16,6 @@ export default function Products(props) {
         return products;
     };
     return (
-        <div className="products-list">{renderProductsList()}</div>
+        <div className="text-3xl flex flex-col items-center">{renderProductsList()}</div>
     )
 }

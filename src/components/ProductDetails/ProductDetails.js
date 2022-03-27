@@ -20,6 +20,6 @@ export default function ProductDetails(props) {
     }
 
     return(
-        <div className="product-focus">{renderProductDetails()}</div>
+        <div className="text-3xl flex flex-col items-center">{renderProductDetails()}</div>
     )
 } 
