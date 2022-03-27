@@ -26,9 +26,9 @@ export default function Bag(props) {
     }
 
     return (
-        <div className="text-3xl flex flex-col items-center">
-            <div className="text-3xl flex flex-col items-center">{renderBagItems()}</div>
-            <div className="total-price">Total: {calculateTotalPrice()} Rupees</div>
+        <div className="text-3xl flex flex-col ">
+            <div className="text-3xl flex flex-col items-center xl:grid xl:grid-cols-4 xl:justify-items-center">{renderBagItems()}</div>
+            <div className="self-center">Total: {calculateTotalPrice()} Rupees</div>
         </div>
     )
 }

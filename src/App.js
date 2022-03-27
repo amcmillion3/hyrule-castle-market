@@ -43,9 +43,8 @@ function App() {
   }
 
   return (
-    <div className="App bg-slate-50 h-max">
+    <div className="App bg-gradient-to-br from-white to-yellow-200 min-h-screen">
       <BrowserRouter>
-        <h1 className='text-7xl flex justify-center my-12 text-center font-bold'>The Hyrule Castle Market</h1>
         <nav className='text-3xl flex justify-center my-10 gap-4'>
           <Link to='/' >Home</Link>
           <Link to='/about' >About</Link>
