@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function ProductCard(props) {
     return (
-        <div key={props.title} className="w-1/2 m-8 flex flex-col bg-violet-100 rounded shadow-lg hover:shadow-inner hover:shadow-xl transition ease-in-out xl:items-center xl:w-3/4">
+        <div key={props.title} className="w-1/2 m-8 flex flex-col bg-violet-100 rounded shadow-lg hover:shadow-inner hover:shadow-xl transition ease-in-out items-center w-1/2 md:w-3/4 xl:w-3/4">
             <Link to={`/products/${props.title}`}>
                 <img className="m-4" src={`${props.image}`} alt={`${props.title}`} />
             </Link>
