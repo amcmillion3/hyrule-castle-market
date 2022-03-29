@@ -43,9 +43,9 @@ function App() {
   }
 
   return (
-    <div className="App bg-gradient-to-br from-white to-yellow-200 min-h-screen">
+    <div className="App bg-gradient-to-br from-white to-slate-300 overflow-hidden min-h-screen">
       <BrowserRouter>
-        <nav className='text-3xl flex justify-center my-10 gap-4'>
+        <nav className='text-3xl flex justify-center my-10 gap-4 bg-violet-700 text-white w-3/4 m-auto rounded'>
           <Link to='/' >Home</Link>
           <Link to='/about' >About</Link>
           <Link to='/products' >Products</Link>

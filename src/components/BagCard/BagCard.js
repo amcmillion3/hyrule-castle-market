@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BagCard(props) {
     return (
-        <div key={props.title} className="w-1/2 m-8 flex flex-col bg-violet-100 rounded shadow-lg hover:shadow-inner hover:shadow-xl transition ease-in-out items-center w-3/4">
+        <div key={props.title} className="w-1/2 m-8 flex flex-col bg-violet-100 rounded shadow-lg hover:shadow-inner hover:shadow-xl transition ease-in-out items-center xl:w-3/4">
             <img src={`${props.image}`} alt={`${props.title}`} />
             <h3>{props.title}</h3>
             <p>{props.price} Rupees</p>
