@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { productData as data } from "./assets/product-data";
-import Home from "./components/Home";
-import About from "./components/About";
-import Products from './components/Products';
+import Home from "./components/home";
+import About from "./components/about";
+import Products from './components/products';
 import ProductDetails from './components/ProductDetails';
-import Bag from './components/Bag';
+import Bag from './components/bag';
 
 function App() {
 
