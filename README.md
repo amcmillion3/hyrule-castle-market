@@ -14,3 +14,22 @@ This project was built so I could learn React Router. React Router is used to se
 
 ## Demo
 ![Demo](./src/assets/hyrule-castle-market.gif)
+
+### Built with
+- React
+- Tailwind
+
+### Run Locally
+- Clone this Repo
+- Run `npm install` and `npm run start` to start the dev environment
+- The application runs in `http://localhost:3000/`.
+
+### Future Features
+- Smoother transitions and styling
+- Functioning checkout method
+
+### Acknowledgments
+- [The Odin Project](https://www.theodinproject.com/ "The Odin Project")
+
+### Copyright
+- The Legend of Zelda is a registered trademark of its respective owners. No copyright infringement intended. This is just a fun little side project made by a Zelda Fan.
